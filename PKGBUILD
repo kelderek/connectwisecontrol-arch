@@ -1,8 +1,13 @@
 # Created 01/19/2023 by Michael Magill
 # https://github.com/Kelderek/connectwise-control-arch
 
-# You will need to put your own server's URL in the connectwiseurl variable!
-connectwiseurl="YOUR SERVER'S DEB FILE DOWNLOAD LINK"
+# YOU NEED TO EDIT THE LINE BELOW!
+connectwiseurl="YOUR SERVER'S DEB FILE DOWNLOAD LINK OR THE FILENAME IF YOU ALREADY DOWNLOADED THE DEB FILE"
+# e.g.
+# connectwiseurl="ConnectWiseControl.ClientSetup.deb"
+# or
+# connectwiseurl="https://myserver.mydomain.com/ScreenConnect/Bin/ConnectWiseControl.ClientSetup.deb?h=myserserver.mydomain.com&p=8041&k=really long key"
+# if using the url, expect it to be 500+ characters long.  Just make sure the whole thing is in quotes!
 
 pkgname="connectwisecontrol"
 pkgver="1.0"
