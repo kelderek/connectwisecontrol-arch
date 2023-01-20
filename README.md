@@ -13,7 +13,7 @@ That should be all you need!  It will download the deb file, extract it, install
 ### Notes
 Why Java 8?  I know it is ancient but that is the only version that worked properly in my testing.  The deb package lists java5-runtime as a dependency.
 
-Uninstalling from the ConnectWise web GUI doesn't work, you will need to use ```pacman -S connectwisecontrol```
+Uninstalling from the ConnectWise web GUI doesn't work, you will need to use ```pacman -R connectwisecontrol```
 
 The folder and service names use the annoying connectwisecontrol-biglongserverid format so it shouldn't conflict with multiple ConnectWise Control installs, but you would need to modify the pkgname field in PKGBUILD file in order to use this package multiple times.
 
