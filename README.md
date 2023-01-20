@@ -2,7 +2,7 @@
 PKGBUILD scripts to convert a connectwise control deb file for use on arch
 
 ### Usage
-1. Download the repo into a folder
+1. Download the repo into a folder (in your browser or with ```git clone https://github.com/Kelderek/connectwisecontrol-arch```)
 2. Edit the PKGBUILD file to use your server's deb file with either URL or a downloaded file:
 * For a deb file, copy it to the folder with the files from this repo.  In PKGBUILD set the connectwiseurl to the name of the deb file. Make sure it is enclosed in quotes!
 * For the URL go to Access, click Build +, set the type to .deb, set any other info on that screen that you want, and click Copy URL.  In PKGBUILD set the connectwiseurl to the copied URL.  Make sure it is enclosed in quotes!
