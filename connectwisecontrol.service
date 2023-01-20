@@ -1,0 +1,11 @@
+[Unit]
+Description=connectwise-control
+After=local-fs.target network.target
+
+[Service]
+Type=forking
+ExecStart=/opt/connectwisecontrol-CONNECTWISEID/connectwisecontrol-CONNECTWISEID.initrd start
+ExecStop=/opt/connectwisecontrol-CONNECTWISEID/connectwisecontrol-CONNECTWISEID.initrd stop
+
+[Install]
+WantedBy=default.target

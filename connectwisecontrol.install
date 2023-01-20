@@ -1,0 +1,16 @@
+post_install() {
+   connectwiseinstance=$(ls -d /opt/connectwisecontrol-* | xargs -n 1 basename)
+   /opt/${connectwiseinstance}/postinst
+   systemctl daemon-reload
+   systemctl enable ${connectwiseinstance}
+   systemctl start ${connectwiseinstance}
+}
+
+pre_remove() {
+   connectwiseinstance=$(ls -d /opt/connectwisecontrol-* | xargs -n 1 basename)
+   systemctl stop ${connectwiseinstance}
+}
+
+post_remove() {
+   systemctl daemon-reload
+}
