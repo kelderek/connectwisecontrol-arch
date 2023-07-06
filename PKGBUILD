@@ -32,5 +32,5 @@ package() {
    sed -i "s/CONNECTWISEID/${connectwiseid}/g" connectwisecontrol.service
    install -Dm644 "${srcdir}/connectwisecontrol.service" "${pkgdir}/opt/connectwisecontrol-${connectwiseid}/connectwisecontrol-${connectwiseid}.service"
    mkdir -p "${pkgdir}/etc/systemd/system/"
-   ln -s "${pkgdir}/opt/connectwisecontrol-${connectwiseid}/connectwisecontrol-${connectwiseid}.service" "${pkgdir}/etc/systemd/system/connectwisecontrol-${connectwiseid}.service"
+   ln -s "/opt/connectwisecontrol-${connectwiseid}/connectwisecontrol-${connectwiseid}.service" "${pkgdir}/etc/systemd/system/connectwisecontrol-${connectwiseid}.service"
 }
