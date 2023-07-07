@@ -1,5 +1,5 @@
 # Created 01/19/2023 by Michael Magill
-# https://github.com/Kelderek/connectwise-control-arch
+# https://github.com/Kelderek/connectwisecontrol-arch
 
 # YOU NEED TO EDIT THE LINE BELOW!
 connectwiseurl="YOUR SERVER'S DEB FILE DOWNLOAD LINK OR THE FILENAME IF YOU ALREADY DOWNLOADED THE DEB FILE"
