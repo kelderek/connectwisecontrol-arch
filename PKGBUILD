@@ -10,8 +10,8 @@ connectwiseurl="YOUR SERVER'S DEB FILE DOWNLOAD LINK OR THE FILENAME IF YOU ALRE
 # if using the url, expect it to be 500+ characters long.  Just make sure the whole thing is in quotes!
 
 pkgname="connectwisecontrol"
-pkgver="1.0"
-pkgrel="1.0"
+pkgver="1.2"
+pkgrel="1.2"
 pkgdesc="Install ConnectWise Control based on the deb file"
 arch=("x86_64")
 depends=('jre8-openjdk'
