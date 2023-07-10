@@ -15,7 +15,6 @@ pkgrel="1.0"
 pkgdesc="Install ConnectWise Control based on the deb file"
 arch=("x86_64")
 depends=('jre8-openjdk'
-   'inetutils'
    'xorg-xdpyinfo')
 install=connectwisecontrol.install
 source=("ConnectWiseControl.ClientSetup.deb::${connectwiseurl}"
